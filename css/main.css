@@ -5,6 +5,7 @@
 /*****************************************************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 
 /* Global Reset */
 * {
@@ -16,7 +17,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #D1ECF3;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -90,7 +91,7 @@ table th { font-weight: bold; }
 }
 
 .img_link img {
-  display: block;
+  /*display: block;*/
 }
 
 section section:before,
@@ -101,6 +102,15 @@ section section:after {
 
 section section:after {
     clear: both;
+}
+
+section h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+section section section h1 {
+  font-weight: 300;
 }
 
 section section {
@@ -141,6 +151,20 @@ summary > h1 {display: inline-block;}
 }
 
 
+section.water {
+  border-left-color:#EFF4FF;
+}
+section.electric {
+  border-left-color:#FFEFEF;
+}
+section.headting {
+  border-left-color:inherit;
+}
+section.transport {
+  border-left-color:#FFEFFC;
+}
+
+
 /*****************************************************************************/
 /*
 /* Site
@@ -149,7 +173,7 @@ summary > h1 {display: inline-block;}
 
 .site {
   background-color: #FFF;
-  font-size: 115%;
+  font-size: 150%;
   text-align: left;
   width: 44em;
   margin: 1em auto 2em;
@@ -245,4 +269,35 @@ summary > h1 {display: inline-block;}
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+footer { padding: 0 1em; }
+
+
+@media ( max-width: 56em ) {
+
+  .header { padding: 0 1em; }
+  .site { font-size: 135%; width:100%; padding:0;}
+  #audit input[type=text] {
+    display: block;
+  }
+
+  section section { padding-left: 0; }
+}
+
+@media ( max-width: 35em ) {
+
+  .site { font-size: 115%; }
+
+  #audit .img_link {
+    margin-left: 0;
+    float: none;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+
+@media ( max-width: 25em ) {
+
+  .site { font-size: 100%; }
 }
