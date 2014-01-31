@@ -6,24 +6,20 @@ title: Home Energy Audit
 <section id="audit">
     <form onsubmit="" target="_blank" id="ss-form" method="POST" action="https://docs.google.com/forms/d/1A_UZ1itz8ZugAHAwy_ndMyZlMZf04muFmwTxjegmWJo/formResponse">
         <section class="water">
-            <section>
-                <h1>Your Email</h1>
-                <p>Please enter your e-mail if you want us to send you a report about this data.</p>
-                <input tabindex="1" type="text" id="entry_674138951" class="ss-q-short valid" value="" name="entry.674138951">
-            </section>
-            <h1>Water</h1>
+            <h1>HOME ENERGY TRACKER - WATER USAGE</h1>
             <section>
                 <div class="img_link"><a href="/img/large/01_1.6_gpf.jpg"><img src="/img/thumb/01_1.6_gpf.jpg" alt=""></a></div>
                 <h1>Toilets</h1>
                 <p>How much water does it take to flush your toilet in gallons/flush (gpf).</p>
-                <p><i>Most toilets have the gpf printed on the tank</i></p>
+                <p><em>Most toilets have the gpf printed on the tank.  If not, flush your toilet and turn off the water valve.  Now fill the tank by hand and measure how much water it takes to fill the tank to its "full" mark.This amount of water will be your gpf.</em></p>
 
-                <input tabindex="1" type="text" id="entry_1223110363" class="ss-q-short" value="" name="entry.1223110363"> <label for="entry_674138951">No. of gpf</label>
+                <label for="entry_674138951">No. of gpf</label>
+                <input tabindex="1" type="text" id="entry_1223110363" class="ss-q-short" value="" name="entry.1223110363">
 
                 <p>Goal: <span class="goal">1 gpf</span></p>
                 <p><mark>If greater than 1 gpf click <a href="http://www.easywatersaving.com/index.html" target="_blank">Low Flow</a> and <a href="http://www.easywatersaving.com/Installation_Instructions_01.pdf" target="_blank">Instructions</a> for a simple dual flush converter</mark></p>
             </section>
-            <aside class="info">
+            <aside class="info hidden">
                 <details>
                     <summary tabindex="1">
                         <h1>How to find your <strong>gallons per minute</strong></h1>
@@ -50,9 +46,23 @@ title: Home Energy Audit
                 <div class="img_link"><a href="/img/large/02_water_gpm_useage_sm.jpg"><img src="/img/thumb/02_water_gpm_useage_sm.jpg" alt=""></a></div>
                 <h1>Faucets</h1>
                 <p>How many gallons of water is used in one minute (gpm).</p>
-                <p><i>With a measuring cup, see how much water you use in one minute.</i></p>
+                <p><em>With a measuring cup, fill it for 10 second, pull the cup away, see how full it is and multiply by 6 to get the amount of water used in 60 seconds.  You can do this for 2 seconds and multiply by 30.</em></p>
 
-                <input tabindex="1" type="text" id="entry_1635961327" class="ss-q-short" value="" name="entry.1635961327"> <label for="entry_1635961327">No. of gallons</label>
+                <label for="entry_1635961337">Faucet 1 No. of gallons</label>
+                <input tabindex="1" type="text" id="entry_1635961327" class="ss-q-short" value="" name="entry.1635961327">
+                <br>
+
+                <label for="entry_1422811553">Faucet 2 No. of gallons</label>
+                <input tabindex="1" type="text" name="entry.1422811553" value="" class="ss-q-short" id="entry_1422811553">
+                <br>
+
+                <label for="entry_715852108">Faucet 3 No. of gallons</label>
+                <input tabindex="1" type="text" name="entry.715852108" value="" class="ss-q-short" id="entry_715852108">
+                <br>
+
+                <label for="entry_738599872">Faucet 4 No. of gallons</label>
+                <input tabindex="1" type="text" name="entry.738599872" value="" class="ss-q-short" id="entry_738599872">
+                <br>
 
                 <p>Goal: <span class="goal">0.5 gpm for each faucet</span></p>
                 <p><mark>If greater than 0.5 gpm see <a href="http://greeningneighborhoods.com/2011/05/18/more-money-saving-water-saving-ideas/" target="_blank">aerators</a></mark></p>
@@ -60,34 +70,43 @@ title: Home Energy Audit
             <section>
                 <div class="img_link"><a href="/img/large/03_water_useage_shower_sm.jpg"><img src="/img/thumb/03_water_useage_shower_sm.jpg" alt=""></a></div>
                 <h1>Showers</h1>
-                <p>How many gallons of water is used in one minute (gpm)</p>
-                <p><i>With a measuring cup, see how much water you use in one minute.</i></p>
+                <p>How many gallons of water is used in one minute (gpm).</p>
+                <p><em>With a measuring cup, see how much water you use in one
+minute the same way you did your faucets.</em></p>
 
-                <input tabindex="1" type="text" id="entry_1047642824" class="ss-q-short" value="" name="entry.1047642824"> <label for="entry_1047642824">No. of gallons</label>
+                <label for="entry_1047642824">Shower 1 No. of gallons</label>
+                <input tabindex="1" type="text" id="entry_1047642824" class="ss-q-short" value="" name="entry.1047642824">
+                <br>
+
+                <label for="entry_610217282">Shower 2 No. of gallons</label>
+                <input tabindex="1" type="text" name="entry.610217282" value="" class="ss-q-short" id="entry_610217282">
 
                 <p>Goal: <span class="goal">1.3 gpm</span></p>
                 <p><mark>If greater than 1.3 gallons see <a href="http://greeningneighborhoods.com/2011/05/18/more-money-saving-water-saving-ideas/" target="_blank">aerators</a></mark></p>
+
+                <p><input type="checkbox" name="entry.423038286" value="yes" id="group_423038286_1" role="checkbox" class="ss-q-checkbox"> <label for="group_423038286_1">Have you reduced shower time by one minute?</label></p>
             </section>
             <section>
                 <div class="img_link"><a href="/img/large/04_water_useage_hot_water_sm.jpg"><img src="/img/thumb/04_water_useage_hot_water_sm.jpg" alt=""></a></div>
                 <h1>All Faucets and Showers</h1>
                 <p>How many gallons of water are used before it is hot?</p>
-                <p><i>With a measuring cup, see how much water you use until the water is hot.</i></p>
+                <p><em>With a measuring cup, see how much water you use until the water is hot.</em></p>
 
-                <input tabindex="1" type="text" id="entry_561395285" class="ss-q-short" value="" name="entry.561395285"> <label for="entry_561395285">No. of gallons</label>
+                <label for="entry_561395285">No. of gallons</label>
+                <input tabindex="1" type="text" id="entry_561395285" class="ss-q-short" value="" name="entry.561395285">
 
                 <p>Goal: <span class="goal">30 seconds = 0.25 gallons (1 quart)</span></p>
                 <p><mark>If it take longer than 30 seconds see the instant <a href="http://www.instant-off.com/" target="_blank">off device</a>,</mark> which saves water and delivers hot water faster.</p>
             </section>
         </section>
         <section class="electric">
-            <h1>Electric Appliances</h1>
+            <h1>HOME ENERGY TRACKER - ELECTRICAL APPLIANCES</h1>
             <section>
                 <a class="img_link" href="/img/large/05_1-cfl=9_edison.jpg"><img src="/img/thumb/05_1-cfl=9_edison.jpg" alt=""></a>
                 <h1>Light Bulbs</h1>
-                <p>Count the number of standard light bulbs vs the number of CFL bulbs. One CFL lasts as long as nine standard incandescent bulbs.</p>
+                <p>Count the number of standard light bulbs vs the number of CFL/LED bulbs.  One CFL lasts as long as nine standard incandescent bulbs and uses less electricity in the process.</p>
 
-                <label for="entry_1298692250">CFL's</label> <input tabindex="1" type="text" id="entry_1298692250" class="ss-q-short" value="" name="entry.1298692250">
+                <label for="entry_1298692250">CFL's or LED's</label> <input tabindex="1" type="text" id="entry_1298692250" class="ss-q-short" value="" name="entry.1298692250">
                 <br>
                 <br>
                 <label for="entry_1189183935">Standard</label> <input tabindex="1" type="text" id="entry_1189183935" class="ss-q-short" value="" name="entry.1189183935">
@@ -98,40 +117,63 @@ title: Home Energy Audit
             <section>
                 <div class="img_link"><a href="/img/large/06_Energy_Star_energy_guide.JPG"><img src="/img/thumb/06_Energy_Star_energy_guide.JPG" alt=""></a></div>
                 <h1>Appliance Energy Rating</h1>
-                <p>Check the energy rating of your Refrigerator, Dishwasher, Clothes Drier, Washing Machine, and Water Heater if data is available</p>
+                <p>Check if your Refrigerator, Dishwasher, Clothes Dryer, Washing Machine, and Water Heater are Energy Star Appliances.</p>
 
-                <input tabindex="1" type="text" id="entry_440977917" class="ss-q-short" value="" name="entry.440977917"> <label for="entry_440977917">No. of therms/year</label>
-
-                <br>
-
-                <input tabindex="1" type="checkbox" class="ss-q-checkbox" role="checkbox" id="group_1459873295_1" value="yes" name="entry.1459873295"> <label for="group_1459873295_1">Are your appliances Energy Star?</label>
+                <label for="entry_440977917">Number of Energy Star Appliances</label>
+                <input tabindex="1" type="text" id="entry_440977917" class="ss-q-short" value="" name="entry.440977917">
 
                 <p><mark>Often there are special discounts on <a href="http://greeningneighborhoods.com/2012/10/05/energy-star-sales-tax-holiday-now/" target="_blank">Energy Star</a> Appliances</mark></p>
             </section>
             <section>
+                <h1>Appliance Checklist</h1>
+                <p>You can save energy by completing these three simple tasks.</p>
+
+                <input tabindex="1" type="checkbox" name="entry.1459873295" value="yes" id="group_1459873295_1" role="checkbox" class="ss-q-checkbox"> <label for="group_1459873295_1">Turn down your water heater to 120&deg; F</label>
+                <br>
+                <input tabindex="1" type="checkbox" name="entry.662852994" value="yes" id="group_662852994_1" role="checkbox" class="ss-q-checkbox"> <label for="group_662852994_1">Run dishwasher, clothes dryer and washing machine when full</label>
+                <br>
+                <input tabindex="1" type="checkbox" name="entry.1450326031" value="yes" id="group_1450326031_1" role="checkbox" class="ss-q-checkbox"> <label for="group_1450326031_1">Wash clothes in cold water</label>
+            </section>
+            <section>
                 <div class="img_link"><a href="/img/large/07_Vampire_Coffee_Maker_004.jpg"><img src="/img/thumb/07_Vampire_Coffee_Maker_004.jpg" alt=""></a></div>
                 <h1>Power Vampires</h1>
-                <p>Check for power vampires.  These are electronic devices that waste electricity even when not "on"</p>
-                <p><i>Unplug them when not in use.</i></p>
-                <input tabindex="1" type="text" id="entry_2076693514" class="ss-q-short" value="" name="entry.2076693514"> <label for="entry_2076693514">No. of vampires</label>
-                <p>Goal: <span class="goal">zero power vampires</span></p>
+                <p>Check for power vampires.  These are electronic devices that waste electricity even when not "on".</p>
+                <p><em>These include phone chargers, appliances and even "sleeping" computers, which still use energy when not in use. Unplug them when not in use.</em></p>
+
+                <label for="entry_2076693514">No. of vampires</label>
+                <input tabindex="1" type="text" id="entry_2076693514" class="ss-q-short" value="" name="entry.2076693514">
+                <br>
+
+                <label for="entry_1393405712">No. of Devices unplugged when not being used</label>
+                <input tabindex="1" type="text" name="entry.1393405712" value="" class="ss-q-short" id="entry_1393405712">
+
+                <p>Goal: <span class="goal">zero power vampires plugged in</span></p>
                 <p><mark>See <a href="http://greeningneighborhoods.com/2010/03/03/vampire-power/" target="_blank">energy vampires</a></mark></p>
             </section>
         </section>
         <section class="headting">
-            <h1>Heating/Cooling</h1>
+            <h1>HOME ENERGY TRACKER - HEATING/COOLING</h1>
             <section>
                 <div class="img_link"><a href="/img/large/08_Thermostat_64_d._with_hand_06.jpg"><img src="/img/thumb/08_Thermostat_64_d._with_hand_06.jpg" alt=""></a></div>
                 <h1>Thermostat</h1>
-                <p>Find out what temperature your thermostat is set at</p>
+                <p>Find out at what temperature your thermostat is set</p>
+
+                <label for="entry_733424313">Temp</label>
                 <input tabindex="1" type="text" id="entry_733424313" class="ss-q-short" value="" name="entry.733424313">
-                <p>Goal: <span class="goal">Raise summer thermostat 2 degrees<br>Lower winter thermostat  2 degrees</span></p>
+
+                <p>Goal:
+                    <br>
+                    <input tabindex="1" type="checkbox" name="entry.1553880182" value="yes" id="group_1553880182_1" role="checkbox" class="ss-q-checkbox"> <label for="group_1553880182_1" class="goal">Raise summer thermostat 2 degrees</label>
+                    <br>
+                    <input tabindex="1" type="checkbox" name="entry.1208710102" value="yes" id="group_1208710102_1" role="checkbox" class="ss-q-checkbox"> <label for="group_1208710102_1" class="goal">Lower winter thermostat  2 degrees</label>
+                </p>
+
                 <p><mark>See <a href="http://greeningneighborhoods.com/2011/12/27/set-your-thermostat-back-save/" target="_blank">Set Your Thermostat back</a></mark></p>
             </section>
             <section>
                 <div class="img_link"><a href="/img/large/09_Plumbing_hole.JPG"><img src="/img/thumb/09_Plumbing_hole.JPG" alt=""></a></div>
                 <h1>Wall Air Leaks</h1>
-                <p>Check for air leaks around pipes that pass through walls</p>
+                <p>Check for air leaks around pipes that pass through exterior walls.</p>
                 <p><label for="entry_1654856849">How many holes did you find?</label></p>
 
                 <input tabindex="1" type="text" id="entry_1654856849" class="ss-q-short" value="" name="entry.1654856849">
@@ -142,7 +184,7 @@ title: Home Energy Audit
             <section>
                 <div class="img_link"><a href="/img/large/10_Insulated_window_glass.JPG"><img src="/img/thumb/10_Insulated_window_glass.JPG" alt=""></a></div>
                 <h1>Windows</h1>
-                <p>Check to see how many windows are insulating glass (double paned) and how many are single paned?</p>
+                <p>Check to see how many windows are insulating glass (double paned) How many are single paned?</p>
                 <p>
                     <label for="entry_1725969173">Double Paned</label>: <input tabindex="1" type="text" id="entry_1725969173" class="ss-q-short" value="" name="entry.1725969173">
                     <br>
@@ -154,20 +196,29 @@ title: Home Energy Audit
                 <div class="img_link"><a href="/img/large/11_Janice_Weather_Strippping.jpg"><img src="/img/thumb/11_Janice_Weather_Strippping.jpg" alt=""></a></div>
                 <h1>Door and Window Air Leaks</h1>
                 <p>Check doors and windows for air leaks.</p>
-                <p><i>See if you can feel wind blowing in through cracks.</i></p>
+                <p><em>See if you can feel wind blowing in through cracks.</em></p>
 
+                <label for="entry_462589222">No. of Doors and Windows</label>
                 <input tabindex="1" type="text" id="entry_462589222" class="ss-q-short" value="" name="entry.462589222">
 
                 <p>Goal: <span class="goal">Make all doors and windows air tight by adding weather stripping</span></p>
+
+                <label for="entry_899889208">No. of doors and windows with weather stripping</label>
+                <input tabindex="1" type="text" name="entry.899889208" value="" class="ss-q-short" id="entry_899889208">
+
                 <p><mark>See <a href="http://greeningneighborhoods.com/2013/11/06/cold-weather-tip-patch-holes-in-walls/" target="_blank">Weather Stripping</a></mark></p>
             </section>
             <section>
                 <div class="img_link"><a href="/img/large/12_Adding_Outlet_Insulation.jpg"><img src="/img/thumb/12_Adding_Outlet_Insulation.jpg" alt=""></a></div>
                 <h1>Outlet &amp; Switch Plate Air Leaks</h1>
                 <p>Check exterior wall outlet and switch plates.</p>
-                <p><i>In winter, if the plates feel cold to the touch, outside air is entering your home.</i></p>
+                <p><em>In winter, if the plates feel cold to the touch, outside air is entering your home.</em></p>
 
+                <label for="entry_1992448165">No. of Exterior Wall Plates</label>
                 <input tabindex="1" type="text" id="entry_1992448165" class="ss-q-short" value="" name="entry.1992448165">
+                <br>
+                <label for="entry_264789240">No. with Foam Inserts</label>
+                <input tabindex="1" type="text" name="entry.264789240" value="" class="ss-q-short" id="entry_264789240">
 
                 <p>Goal: <span class="goal">Put foam inserts behind the cover plates</span></p>
                 <p><mark>See <a href="http://greeningneighborhoods.com/2013/11/06/cold-weather-tip-patch-holes-in-walls/" target="_blank">Weather Stripping</a></mark></p>
@@ -177,25 +228,42 @@ title: Home Energy Audit
                 <h1>Insulation</h1>
                 <p>Measure the depth of insulation in your attic:</p>
 
-                <input tabindex="1" type="text" id="entry_199735177" class="ss-q-short" value="" name="entry.199735177"> <label for="entry_199735177">inches</label>
+                <input tabindex="1" type="text" id="entry_199735177" class="ss-q-short" value="" name="entry.199735177">
+                <label for="entry_199735177">inches</label>
 
                 <p>Goal: <span class="goal">At least 9 inches deep (for R 30)</span></p>
                 <p><mark>See <a href="http://greeningneighborhoods.com/2011/11/18/winters-on-the-way-its-time-to-insulate/" target="_blank">Attic Insulation</a></mark></p>
             </section>
         </section>
         <section class="transport">
-            <h1>Alternative Transportation</h1>
+            <h1>HOME ENERGY TRACKER - TRANSPORTATION</h1>
             <section>
                 <div class="img_link"><a href="/img/large/14_Alt._Trans._Frank_and_MARTA.jpg"><img src="/img/thumb/14_Alt._Trans._Frank_and_MARTA.jpg" alt=""></a></div>
                 <h1>Car Mileage</h1>
-                <p>Keep track of car mileage for one week.</p>
-                <p><i>Reducing car travel is the way we can save the most money by walking, biking, car pooling and taking public transportation</i></p>
-                <input tabindex="1" type="text" id="entry_1864905132" class="ss-q-short" value="" name="entry.1864905132">
+                <p>Keep track of car mileage for one week (7 days).</p>
+                <p><em>Reducing car travel is the way we can save the most money. By walking, biking, carpooling and taking public transportation, we can save thousands of dollars a year.</em></p>
+
+                <label for="entry_1864905132">Number of car miles in a typical week*</label>
                 <br>
-                <label for="entry_1864905132">Number of car miles in a typical week</label>
-                <p>Number to beat is the U.S. average of 260 miles.</p>
+                <input tabindex="1" type="text" id="entry_1864905132" class="ss-q-short" value="" name="entry.1864905132">
+
+                <p><small>*for trips in a hybrid car divide by 2 for trips in an all electric car enter 0 for miles</small></p>
+
+                <p>Goal: <span class="goal">Number to beat is the U.S. average of 260 miles.</span></p>
+
+                <p>Number of trips per week substituted for car travel:</p>
+
+                <label for="">By foot or bike</label> <input tabindex="1" type="text" name="entry.262061246" value="" class="ss-q-short" id="entry_262061246" dir="auto" title="">
+                <br>
+                <label for="">By carpool or transit</label> <input tabindex="1" type="text" name="entry.1582437393" value="" class="ss-q-short" id="entry_1582437393" dir="auto" aria-label="Trips per week carpool/transit  " title="">
+
                 <p><mark>See <a href="http://greeningneighborhoods.com/category/save-money/lower-gasoline-bills/" target="_blank">Alternative Transportation</a></mark></p>
             </section>
+        </section>
+        <section>
+            <h1>Your Email</h1>
+            <p>Please enter your e-mail if you want us to send you a report about this data.</p>
+            <input tabindex="1" type="text" id="entry_674138951" class="ss-q-short valid" value="" name="entry.674138951">
         </section>
         <div class="submitBox">
             <div>
@@ -207,9 +275,5 @@ title: Home Energy Audit
 </section>
 
 <footer>
-    <h1>Keeping Score</h1>
-    <p>Look at your family's water, electric and gas bills. Make note of the kilowatt hours of electricity, your therms (or CCF) of gas and your water use for the months before putting the energy saving measures in place.  There should be a difference in the amount of energy and water you used and savings in your utility bills.</p>
-    <h1>What Next?</h1>
-    <p>Ultimately our goal should be to heat and cool our homes and drive our cars without depending on fossil fuels.  The day will come when we will generate our electricity from the sun’s energy and our battery powered cars will be charged with renewable fuels.  We will then be living in what is being called net zero homes, meaning that we use more renewable energy sources than non-renewable sources.</p>
-    <p>In the meantime we can do something to become net zero.  We can do with our homes what Google does, what Microsoft does, what Walmart does and what a number of cities like the District of Columbia and Houston Texas do.  They become as energy efficient as possible, they generate some of their own power from wind, solar and geothermal and they purchase carbon offsets to make up for the non-renewable energy that they still use.  Greening Neighborhoods is now offering carbon offsets as a means of making our homes net zero.  We do this by offering carbon offsets through North American Wind.  For every 1000 kWh per month purchased, individual homes will receive EPA guaranteed Renewable Energy Certificates (RECs) certifying that the home has offset their fossil fuel energy by the equivalent of 1,000 kWh of electricity or 125 therms of natural gas and saved 1,490 pounds of CO2 from being pumped into the atmosphere.  Follow the link and scroll to the bottom of the page to sign up through North American Wind.</p>
+
 </footer>
